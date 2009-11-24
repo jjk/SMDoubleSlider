@@ -1,0 +1,8 @@
+{
+    Actions = {
+    };
+    Outlets = {
+    };
+    ClassName = SMDoubleSlider; 
+    SuperClass = NSSlider; 
+}

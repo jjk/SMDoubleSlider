@@ -1,0 +1,337 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html><head>
+    <title>SMDoubleSliderCell</title>
+	<meta name="generator" content="HeaderDoc">
+</head><body bgcolor="#ffffff"><h1><font face="Geneva,Arial,Helvtica">SMDoubleSliderCell</font></h1><hr><br>
+<h2>Discussion</h2>
+This subclass of NSSliderCell has two knobs - a low knob and a high knob.  The user
+can set either knob in the range of the slider, as long as the low knob is always lower
+in value than the high knob.
+<hr><br><h2>Methods</h2>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/doubleHiValue"></a>
+<h3><a name="doubleHiValue">doubleHiValue</a></h3>
+<blockquote><pre><tt>- (double)<B>doubleHiValue;</B> </tt><br>
+</pre></blockquote>
+<p>Returns the receiver's high knob value as a double.
+</p>
+<b>Result:</b> The receiver's high knob value as a double.
+
+<hr>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/doubleLoValue"></a>
+<h3><a name="doubleLoValue">doubleLoValue</a></h3>
+<blockquote><pre><tt>- (double)<B>doubleLoValue;</B> </tt><br>
+</pre></blockquote>
+<p>Returns the receiver's low knob value as a double.
+</p>
+<b>Result:</b> The receiver's low knob value as a double.
+
+<hr>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/floatHiValue"></a>
+<h3><a name="floatHiValue">floatHiValue</a></h3>
+<blockquote><pre><tt>- (float)<B>floatHiValue;</B> </tt><br>
+</pre></blockquote>
+<p>Returns the receiver's high knob value as a float.
+</p>
+<b>Result:</b> The receiver's high knob value as a float.
+
+<hr>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/floatLoValue"></a>
+<h3><a name="floatLoValue">floatLoValue</a></h3>
+<blockquote><pre><tt>- (float)<B>floatLoValue;</B> </tt><br>
+</pre></blockquote>
+<p>Returns the receiver's low knob value as a float.
+</p>
+<b>Result:</b> The receiver's low knob value as a float.
+
+<hr>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/intHiValue"></a>
+<h3><a name="intHiValue">intHiValue</a></h3>
+<blockquote><pre><tt>- (int)<B>intHiValue;</B> </tt><br>
+</pre></blockquote>
+<p>Returns the receiver's high knob value as an int.
+</p>
+<b>Result:</b> The receiver's high knob value as an int.
+
+<hr>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/intLoValue"></a>
+<h3><a name="intLoValue">intLoValue</a></h3>
+<blockquote><pre><tt>- (int)<B>intLoValue;</B> </tt><br>
+</pre></blockquote>
+<p>Returns the receiver's low knob value as an int.
+</p>
+<b>Result:</b> The receiver's low knob value as an int.
+
+<hr>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/lockedSliders"></a>
+<h3><a name="lockedSliders">lockedSliders</a></h3>
+<blockquote><pre><tt>- (BOOL)<B>lockedSliders;</B> </tt><br>
+</pre></blockquote>
+<p>Determine if the two sliders are locked together.  The low and high knobs will always have
+the same value if this is true.  The end user can not change this setting at run time.
+<br><br>
+<b>NOTE: This value is currently saved, but the locking behavior is unimplemented.</b>
+</p>
+<b>Result:</b> YES if the two knobs are locked together.
+
+<hr>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/objectHiValue"></a>
+<h3><a name="objectHiValue">objectHiValue</a></h3>
+<blockquote><pre><tt>- (id)<B>objectHiValue;</B> </tt><br>
+</pre></blockquote>
+<p>Returns the receiver's high knob value as an Objective-C object if a valid object has been
+associated with the receiver; otherwise, returns nil. To be valid, the receiver must
+have a formatter capable of converting the object to and from its textual representation.
+</p>
+<b>Result:</b> The receiver's high knob value as an Objective-C object.
+
+<hr>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/objectLoValue"></a>
+<h3><a name="objectLoValue">objectLoValue</a></h3>
+<blockquote><pre><tt>- (id)<B>objectLoValue;</B> </tt><br>
+</pre></blockquote>
+<p>Returns the receiver's low knob value as an Objective-C object if a valid object has been
+associated with the receiver; otherwise, returns nil. To be valid, the receiver must
+have a formatter capable of converting the object to and from its textual representation.
+</p>
+<b>Result:</b> The receiver's low knob value as an Objective-C object.
+
+<hr>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/setDoubleHiValue:"></a>
+<h3><a name="setDoubleHiValue:">setDoubleHiValue:</a></h3>
+<blockquote><pre><tt>- (void)<B>setDoubleHiValue:</B>(double)<I>aDouble;</I> </tt><br>
+</pre></blockquote>
+<p>Sets the high knob value of the receiver to an object aDouble, representing a double value.
+In its implementation, this method invokes setObjectValue:.
+The value is pinned between the low knob and maximum slider values.
+</p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>aDouble</tt></td><td>An double precision number to set the high knob value to.</td></tr>
+</table>
+</blockquote>
+<hr>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/setDoubleLoValue:"></a>
+<h3><a name="setDoubleLoValue:">setDoubleLoValue:</a></h3>
+<blockquote><pre><tt>- (void)<B>setDoubleLoValue:</B>(double)<I>aDouble;</I> </tt><br>
+</pre></blockquote>
+<p>Sets the low knob value of the receiver to an object aDouble, representing a double value.
+In its implementation, this method invokes setObjectValue:.
+The value is pinned between the minimum and high knob slider values.
+</p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>aDouble</tt></td><td>An double precision number to set the low knob value to.</td></tr>
+</table>
+</blockquote>
+<hr>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/setFloatHiValue:"></a>
+<h3><a name="setFloatHiValue:">setFloatHiValue:</a></h3>
+<blockquote><pre><tt>- (void)<B>setFloatHiValue:</B>(float)<I>aFloat;</I> </tt><br>
+</pre></blockquote>
+<p>Sets the high knob value of the receiver to an object aFloat, representing a float value.
+In its implementation, this method invokes setObjectValue:.
+The value is pinned between the low knob and maximum slider values.
+</p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>aFloat</tt></td><td>An floating point number to set the high knob value to.</td></tr>
+</table>
+</blockquote>
+<hr>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/setFloatLoValue:"></a>
+<h3><a name="setFloatLoValue:">setFloatLoValue:</a></h3>
+<blockquote><pre><tt>- (void)<B>setFloatLoValue:</B>(float)<I>aFloat;</I> </tt><br>
+</pre></blockquote>
+<p>Sets the low knob value of the receiver to an object aFloat, representing a float value.
+In its implementation, this method invokes setObjectValue:.
+The value is pinned between the minimum and high knob slider values.
+</p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>aFloat</tt></td><td>An floating point number to set the low knob value to.</td></tr>
+</table>
+</blockquote>
+<hr>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/setIntHiValue:"></a>
+<h3><a name="setIntHiValue:">setIntHiValue:</a></h3>
+<blockquote><pre><tt>- (void)<B>setIntHiValue:</B>(int)<I>anInt;</I> </tt><br>
+</pre></blockquote>
+<p>Sets the high knob value of the receiver to an object anInt, representing an integer value.
+In its implementation, this method invokes setObjectValue:.
+The value is pinned between the low knob and maximum slider values.
+</p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>anInt</tt></td><td>An integer to set the high knob value to.</td></tr>
+</table>
+</blockquote>
+<hr>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/setIntLoValue:"></a>
+<h3><a name="setIntLoValue:">setIntLoValue:</a></h3>
+<blockquote><pre><tt>- (void)<B>setIntLoValue:</B>(int)<I>anInt;</I> </tt><br>
+</pre></blockquote>
+<p>Sets the low knob value of the receiver to an object anInt, representing an integer value.
+In its implementation, this method invokes setObjectValue:.
+The value is pinned between the minimum and high knob slider values.
+</p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>anInt</tt></td><td>An integer to set the low knob value to.</td></tr>
+</table>
+</blockquote>
+<hr>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/setLockedSliders:"></a>
+<h3><a name="setLockedSliders:">setLockedSliders:</a></h3>
+<blockquote><pre><tt>- (void)<B>setLockedSliders:</B>(BOOL)<I>inLocked;</I> </tt><br>
+</pre></blockquote>
+<p>Lock the two sliders together, so it functions just like a normal NSSlider.  The low and high
+knobs will have the same value.  The end user can not change this setting at run time.
+<br><br>
+The low knob value gets set to the high knob value immediately.
+<br><br>
+<b>NOTE: This value is currently saved, but the locking behavior is unimplemented.</b>
+</p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>inLocked</tt></td><td>YES if you want to lock the two knobs together.</td></tr>
+</table>
+</blockquote>
+<hr>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/setObjectHiValue:"></a>
+<h3><a name="setObjectHiValue:">setObjectHiValue:</a></h3>
+<blockquote><pre><tt>- (void)<B>setObjectHiValue:</B>(id)<I>obj;</I> </tt><br>
+</pre></blockquote>
+<p>Sets the receiver's object value to object.
+The value is pinned between the low knob and maximum slider values.
+</p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>obj</tt></td><td>An object containing a numeric value.</td></tr>
+</table>
+</blockquote>
+<hr>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/setObjectLoValue:"></a>
+<h3><a name="setObjectLoValue:">setObjectLoValue:</a></h3>
+<blockquote><pre><tt>- (void)<B>setObjectLoValue:</B>(id)<I>obj;</I> </tt><br>
+</pre></blockquote>
+<p>Sets the receiver's object value to object.
+The value is pinned between the low knob and maximum slider values.
+</p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>obj</tt></td><td>An object containing a numeric value.</td></tr>
+</table>
+</blockquote>
+<hr>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/setStringHiValue:"></a>
+<h3><a name="setStringHiValue:">setStringHiValue:</a></h3>
+<blockquote><pre><tt>- (void)<B>setStringHiValue:</B>(NSString *)<I>aString;</I> </tt><br>
+</pre></blockquote>
+<p>Sets the high knob value of the receiver to aString. In its implementation, this method invokes
+setObjectValue:. If no formatter is assigned to the receiver, or if the formatter cannot
+"translate" aString to an underlying object, the receiver is flagged as having an invalid
+object.
+The value is pinned between the low knob and maximum slider values.
+</p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>aString</tt></td><td>Should be a string containing a number.</td></tr>
+</table>
+</blockquote>
+<hr>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/setStringLoValue:"></a>
+<h3><a name="setStringLoValue:">setStringLoValue:</a></h3>
+<blockquote><pre><tt>- (void)<B>setStringLoValue:</B>(NSString *)<I>aString;</I> </tt><br>
+</pre></blockquote>
+<p>Sets the low knob value of the receiver to aString. In its implementation, this method invokes
+setObjectValue:. If no formatter is assigned to the receiver, or if the formatter cannot
+"translate" aString to an underlying object, the receiver is flagged as having an invalid
+object.
+The value is pinned between the minimum and high knob slider values.
+</p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>aString</tt></td><td>Should be a string containing a number.</td></tr>
+</table>
+</blockquote>
+<hr>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/setTrackingLoKnob:"></a>
+<h3><a name="setTrackingLoKnob:">setTrackingLoKnob:</a></h3>
+<blockquote><pre><tt>- (void)<B>setTrackingLoKnob:</B>(BOOL)<I>inValue;</I> </tt><br>
+</pre></blockquote>
+<p>Are we tracking on the low knob or the high knob?  Note that the end user can change this by
+clicking on one knob or the other, or by using the tab key to cycle through the knobs.
+<br><br>
+The standard methods -doubleValue, -intValue, -setDoubleValue:, -setIntValue: etc. will
+all use either the low or the high knob depending on this setting.
+</p>
+<h4>Parameters</h4>
+<blockquote>
+<table border="1"  width="90%">
+<thead><tr><th>Name</th><th>Description</th></tr></thead>
+<tr><td align="center"><tt>inValue</tt></td><td>YES if you want to track on the low knob.</td></tr>
+</table>
+</blockquote>
+<hr>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/stringHiValue"></a>
+<h3><a name="stringHiValue">stringHiValue</a></h3>
+<blockquote><pre><tt>- (NSString *)<B>stringHiValue;</B> </tt><br>
+</pre></blockquote>
+<p>Returns the receiver's high knob value as an NSString as converted by the receiver's
+formatter, if one exists. If no formatter exists and the value is an NSString, returns the
+value as aa plain, attributed, or localized formatted string. If the value is not an NSString
+or can't be converted to one, returns an empty string.
+</p>
+<b>Result:</b> The receiver's high knob value as an NSString object.
+
+<hr>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/stringLoValue"></a>
+<h3><a name="stringLoValue">stringLoValue</a></h3>
+<blockquote><pre><tt>- (NSString *)<B>stringLoValue;</B> </tt><br>
+</pre></blockquote>
+<p>Returns the receiver's low knob value as an NSString as converted by the receiver's
+formatter, if one exists. If no formatter exists and the value is an NSString, returns the
+value as aa plain, attributed, or localized formatted string. If the value is not an NSString
+or can't be converted to one, returns an empty string.
+</p>
+<b>Result:</b> The receiver's low knob value as an NSString object.
+
+<hr>
+<a name="//snowmint_ref/occ/instm/SMDoubleSliderCell/trackingLoKnob"></a>
+<h3><a name="trackingLoKnob">trackingLoKnob</a></h3>
+<blockquote><pre><tt>- (BOOL)<B>trackingLoKnob;</B> </tt><br>
+</pre></blockquote>
+<p>Are we tracking on the low knob or the high knob?  The end user can change this by clicking on
+one knob or the other, or by using the tab key to cycle through the knobs.
+<br><br>
+The standard methods -doubleValue, -intValue, -setDoubleValue:, -setIntValue: etc. will
+all use either the low or the high knob depending on this setting.
+</p>
+<b>Result:</b> YES if the double slider is tracking on the low knob.
+
+<hr>
+<p><p>&#169; 2003-2006 Snowmint Creative Solutions LLC (Last Updated 2006-12-05)
+</p></body></html>

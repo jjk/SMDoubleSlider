@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html>
+<head>
+    <title>SMDoubleSlider Overview</title>
+	<meta name="generator" content="HeaderDoc">
+</head>
+<body bgcolor="#ffffff">
+<font size="-2"><a href="../index.html" target="_top" headerDoc="topLink">[Top]</a></font><br>
+<h1>SMDoubleSlider Overview</h1><hr>
+<h2>Files</h2>
+<p>The SMDoubleSlider code consists of an Xcode project file, an older Project Builder project file, the source code itself, this documentation, and pre-built versions of an Interface Builder palette and sample application.  The source code is broken into three parts, but is all included in the Xcode/Project Builder projects.
+<ol>
+<li>The source code for the SMDoubleSlider classes itself.</li>
+<li>The source code to an Interface Builder palette and inspector that makes it easy to include a double slider in a nib file.</li>
+<li>The source to a sample application that shows off the capabilities of the double slider.</li>
+</ol></p>
+
+<p>The SMDoubleSlider code and the related files in this distribution are open source.  They are <b>not</b> public domain; they are copyright &copy; 2003-2008 Snowmint Creative Solutions LLC.  They are governed by an open source license, which is intended to allow others reasonable freedom in using and modifying the sources, while allowing Snowmint Creative Solutions LLC to retain some control over the project.  If you intend to use or modify the source code for this project, you must read and follow the license.  The license should be included in this distribution; if not, you can find it at &lt;<a href="http://developer.snowmintcs.com/OpenLicense.html">http://developer.snowmintcs.com/OpenLicense.html</a>&gt;.
+
+<h2>Purpose</h2>
+<p>This framework provides both NSSlider and NSSliderCell subclasses which have two knobs instead of one.  The user can slide either of the knobs along, with the limitation that the lower knob is always less than the higher knob.  The SMDoubleSlider class also supports tabbing through both knobs if keyboard access is turned on.</p>
+
+<p><b>Note:</b> The SMDoubleSliderCell does not handle the tabbing through both knobs.  Therefore, if a double slider is placed in a matrix or table column, the user tabbing through will only be able to adjust one of the knobs.  This seems to be a general limitation of the NSCell class construction.</p>
+
+<hr>
+<font size="-1"><a href="GettingStarted.html" target="_top">Getting Started</a> - installation and building the code</font><br>
+<hr><br><center>&#169; 2003-2008 Snowmint Creative Solutions LLC (Last Updated 2008-01-24)
+</center>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = SMDoubleSliderInspector; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_sm_loHiForm" = NSForm; 
+                "_sm_markerNumOf" = NSTextField; 
+                "_sm_markerPositionMatrix" = NSMatrix; 
+                "_sm_markerValuesOnly" = NSButton; 
+                "_sm_minMaxForm" = NSForm; 
+                "_sm_optionsMatrix" = NSMatrix; 
+                "_sm_tag" = NSTextField; 
+                "_sm_valueLock" = NSButton; 
+            }; 
+            SUPERCLASS = IBInspector; 
+        }
+    ); 
+    IBVersion = 1; 
+}

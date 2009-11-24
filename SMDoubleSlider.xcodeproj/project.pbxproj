@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97CE97AA0CE63C0300AE57DC /* SMDoubleSliderInspector.nib in Resources */ = {isa = PBXBuildFile; fileRef = 97CE97A90CE63C0300AE57DC /* SMDoubleSliderInspector.nib */; };
+		97CE97AF0CE63C2F00AE57DC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 97CE97AB0CE63C2700AE57DC /* Credits.rtf */; };
+		97CE97B00CE63C2F00AE57DC /* SampleAppMain.nib in Resources */ = {isa = PBXBuildFile; fileRef = 97CE97AC0CE63C2700AE57DC /* SampleAppMain.nib */; };
+		AE6A26090B25BCA000045E4B /* palette.table in Resources */ = {isa = PBXBuildFile; fileRef = 0259C583FE90428111CA0C5A /* palette.table */; };
+		AE6A260B0B25BCA000045E4B /* SMDoubleSliderPalette.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6B3FBA3B04DECB0B00A80202 /* SMDoubleSliderPalette.nib */; };
+		AE6A260D0B25BCA000045E4B /* SMDoubleSliderInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259C577FE90428111CA0C5A /* SMDoubleSliderInspector.m */; settings = {ATTRIBUTES = (); }; };
+		AE6A260E0B25BCA000045E4B /* SMDoubleSliderPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259C578FE90428111CA0C5A /* SMDoubleSliderPalette.m */; settings = {ATTRIBUTES = (); }; };
+		AE6A260F0B25BCA000045E4B /* SMDoubleSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5250C04DC283800A80202 /* SMDoubleSlider.m */; };
+		AE6A26100B25BCA000045E4B /* SMDoubleSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5250D04DC283800A80202 /* SMDoubleSliderCell.m */; };
+		AE6A26120B25BCA000045E4B /* InterfaceBuilder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E58F362FFB2327711CA0CBA /* InterfaceBuilder.framework */; };
+		AE6A26130B25BCA000045E4B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
+		AE6A26300B25BCDA00045E4B /* SMDoubleSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5250C04DC283800A80202 /* SMDoubleSlider.m */; };
+		AE6A26310B25BCDA00045E4B /* SMDoubleSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB5250D04DC283800A80202 /* SMDoubleSliderCell.m */; };
+		AE6A26320B25BCDA00045E4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B97E83004E1848A00A80202 /* main.m */; };
+		AE6A26330B25BCDA00045E4B /* SMSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B97E84504E1871C00A80202 /* SMSampleAppDelegate.m */; };
+		AE6A26350B25BCDA00045E4B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0259C577FE90428111CA0C5A /* SMDoubleSliderInspector.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SMDoubleSliderInspector.m; sourceTree = "<group>"; };
+		0259C578FE90428111CA0C5A /* SMDoubleSliderPalette.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SMDoubleSliderPalette.m; sourceTree = "<group>"; };
+		0259C57BFE90428111CA0C5A /* SMDoubleSliderInspector.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SMDoubleSliderInspector.h; sourceTree = "<group>"; };
+		0259C57CFE90428111CA0C5A /* SMDoubleSliderPalette.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SMDoubleSliderPalette.h; sourceTree = "<group>"; };
+		0259C583FE90428111CA0C5A /* palette.table */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = palette.table; path = "IB Palette code/palette.table"; sourceTree = "<group>"; };
+		2E58F362FFB2327711CA0CBA /* InterfaceBuilder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InterfaceBuilder.framework; path = /System/Library/Frameworks/InterfaceBuilder.framework; sourceTree = "<absolute>"; };
+		6B3FBA3B04DECB0B00A80202 /* SMDoubleSliderPalette.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = SMDoubleSliderPalette.nib; path = "IB Palette code/SMDoubleSliderPalette.nib"; sourceTree = "<group>"; };
+		6B65B3FF04F2B07600A80202 /* Read Me - SMDoubleSlider.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Read Me - SMDoubleSlider.rtf"; sourceTree = "<group>"; };
+		6B65B40004F2B07E00A80202 /* License.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
+		6B97E83004E1848A00A80202 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B97E84404E1871C00A80202 /* SMSampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSampleAppDelegate.h; sourceTree = "<group>"; };
+		6B97E84504E1871C00A80202 /* SMSampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSampleAppDelegate.m; sourceTree = "<group>"; };
+		6BB5250B04DC283800A80202 /* SMDoubleSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SMDoubleSliderCell.h; sourceTree = "<group>"; };
+		6BB5250C04DC283800A80202 /* SMDoubleSlider.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SMDoubleSlider.m; sourceTree = "<group>"; };
+		6BB5250D04DC283800A80202 /* SMDoubleSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SMDoubleSliderCell.m; sourceTree = "<group>"; };
+		6BB5250E04DC283800A80202 /* SMDoubleSlider.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SMDoubleSlider.h; sourceTree = "<group>"; };
+		6BB5251304DC294900A80202 /* SMDoubleSlider_Prefix.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SMDoubleSlider_Prefix.h; sourceTree = "<group>"; };
+		6BE47B4F04F2AB1100A80202 /* index.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html.documentation; path = index.html; sourceTree = "<group>"; };
+		6BE47B5304F2AB1100A80202 /* CompositePage.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html.documentation; path = CompositePage.html; sourceTree = "<group>"; };
+		6BE47B5404F2AB1100A80202 /* index.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html.documentation; path = index.html; sourceTree = "<group>"; };
+		6BE47B5604F2AB1100A80202 /* Methods.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html.documentation; path = Methods.html; sourceTree = "<group>"; };
+		6BE47B5704F2AB1100A80202 /* SMDoubleSlider.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html.documentation; path = SMDoubleSlider.html; sourceTree = "<group>"; };
+		6BE47B5804F2AB1100A80202 /* toc.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html.documentation; path = toc.html; sourceTree = "<group>"; };
+		6BE47B5904F2AB1100A80202 /* CompositePage.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html.documentation; path = CompositePage.html; sourceTree = "<group>"; };
+		6BE47B5A04F2AB1100A80202 /* index.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html.documentation; path = index.html; sourceTree = "<group>"; };
+		6BE47B5B04F2AB1100A80202 /* SMDoubleSlider.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html.documentation; path = SMDoubleSlider.html; sourceTree = "<group>"; };
+		6BE47B5C04F2AB1100A80202 /* toc.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html.documentation; path = toc.html; sourceTree = "<group>"; };
+		6BE47B6004F2AB1100A80202 /* CompositePage.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html.documentation; path = CompositePage.html; sourceTree = "<group>"; };
+		6BE47B6104F2AB1100A80202 /* index.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html.documentation; path = index.html; sourceTree = "<group>"; };
+		6BE47B6304F2AB1100A80202 /* Methods.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html.documentation; path = Methods.html; sourceTree = "<group>"; };
+		6BE47B6404F2AB1100A80202 /* SMDoubleSliderCell.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html.documentation; path = SMDoubleSliderCell.html; sourceTree = "<group>"; };
+		6BE47B6504F2AB1100A80202 /* toc.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html.documentation; path = toc.html; sourceTree = "<group>"; };
+		6BE47B6604F2AB1100A80202 /* CompositePage.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html.documentation; path = CompositePage.html; sourceTree = "<group>"; };
+		6BE47B6704F2AB1100A80202 /* index.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html.documentation; path = index.html; sourceTree = "<group>"; };
+		6BE47B6804F2AB1100A80202 /* SMDoubleSliderCell.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html.documentation; path = SMDoubleSliderCell.html; sourceTree = "<group>"; };
+		6BE47B6904F2AB1100A80202 /* toc.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html.documentation; path = toc.html; sourceTree = "<group>"; };
+		6BE47B6C04F2AB1100A80202 /* GettingStarted.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html.documentation; path = GettingStarted.html; sourceTree = "<group>"; };
+		6BE47B6D04F2AB1100A80202 /* Overview.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html.documentation; path = Overview.html; sourceTree = "<group>"; };
+		6BE47B6E04F2AB1100A80202 /* Usage.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html.documentation; path = Usage.html; sourceTree = "<group>"; };
+		97CE97A90CE63C0300AE57DC /* SMDoubleSliderInspector.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = SMDoubleSliderInspector.nib; path = "IB Palette code/SMDoubleSliderInspector.nib"; sourceTree = "<group>"; };
+		97CE97AB0CE63C2700AE57DC /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Credits.rtf; path = "Sample App code/Credits.rtf"; sourceTree = "<group>"; };
+		97CE97AC0CE63C2700AE57DC /* SampleAppMain.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = SampleAppMain.nib; path = "Sample App code/SampleAppMain.nib"; sourceTree = "<group>"; };
+		AE6A26190B25BCA000045E4B /* Info-IB_Palette.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Info-IB_Palette.plist"; sourceTree = "<group>"; };
+		AE6A261A0B25BCA000045E4B /* SMDoubleSliderPalette.palette */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMDoubleSliderPalette.palette; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6A263B0B25BCDA00045E4B /* Info-Sample_App.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Info-Sample_App.plist"; sourceTree = "<group>"; };
+		AE6A263C0B25BCDA00045E4B /* DoubleSliderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleSliderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD92D38A0106425D02CA0E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE6A26110B25BCA000045E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6A26120B25BCA000045E4B /* InterfaceBuilder.framework in Frameworks */,
+				AE6A26130B25BCA000045E4B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6A26340B25BCDA00045E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6A26350B25BCDA00045E4B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0259C574FE90428111CA0C5A /* KylesIBPalette */ = {
+			isa = PBXGroup;
+			children = (
+				6B65B3FF04F2B07600A80202 /* Read Me - SMDoubleSlider.rtf */,
+				6B65B40004F2B07E00A80202 /* License.rtf */,
+				6BB5251504DC295000A80202 /* Classes */,
+				6BB5251304DC294900A80202 /* SMDoubleSlider_Prefix.h */,
+				0259C582FE90428111CA0C5A /* Resources */,
+				6BE47B4D04F2AB1100A80202 /* Docs */,
+				2E58F364FFB232C311CA0CBA /* Frameworks */,
+				1ED78706FE9D4A0611CA0C5A /* Products */,
+			);
+			name = KylesIBPalette;
+			sourceTree = "<group>";
+		};
+		0259C582FE90428111CA0C5A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B97E83404E1856000A80202 /* IB Palette resources */,
+				6B97E85004E1895900A80202 /* Sample App resources */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1ED78706FE9D4A0611CA0C5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE6A261A0B25BCA000045E4B /* SMDoubleSliderPalette.palette */,
+				AE6A263C0B25BCDA00045E4B /* DoubleSliderApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27026A730D491DB70074D50A /* Framework_code */ = {
+			isa = PBXGroup;
+			children = (
+				6BB5250E04DC283800A80202 /* SMDoubleSlider.h */,
+				6BB5250C04DC283800A80202 /* SMDoubleSlider.m */,
+				6BB5250B04DC283800A80202 /* SMDoubleSliderCell.h */,
+				6BB5250D04DC283800A80202 /* SMDoubleSliderCell.m */,
+			);
+			path = Framework_code;
+			sourceTree = "<group>";
+		};
+		2E58F364FFB232C311CA0CBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD92D38A0106425D02CA0E72 /* Cocoa.framework */,
+				2E58F362FFB2327711CA0CBA /* InterfaceBuilder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B97E82F04E1846E00A80202 /* IB Palette code */ = {
+			isa = PBXGroup;
+			children = (
+				AE6A26190B25BCA000045E4B /* Info-IB_Palette.plist */,
+				0259C57BFE90428111CA0C5A /* SMDoubleSliderInspector.h */,
+				0259C577FE90428111CA0C5A /* SMDoubleSliderInspector.m */,
+				0259C57CFE90428111CA0C5A /* SMDoubleSliderPalette.h */,
+				0259C578FE90428111CA0C5A /* SMDoubleSliderPalette.m */,
+			);
+			path = "IB Palette code";
+			sourceTree = "<group>";
+		};
+		6B97E83304E1853200A80202 /* Sample App code */ = {
+			isa = PBXGroup;
+			children = (
+				AE6A263B0B25BCDA00045E4B /* Info-Sample_App.plist */,
+				6B97E84404E1871C00A80202 /* SMSampleAppDelegate.h */,
+				6B97E84504E1871C00A80202 /* SMSampleAppDelegate.m */,
+				6B97E83004E1848A00A80202 /* main.m */,
+			);
+			path = "Sample App code";
+			sourceTree = "<group>";
+		};
+		6B97E83404E1856000A80202 /* IB Palette resources */ = {
+			isa = PBXGroup;
+			children = (
+				97CE97A90CE63C0300AE57DC /* SMDoubleSliderInspector.nib */,
+				6B3FBA3B04DECB0B00A80202 /* SMDoubleSliderPalette.nib */,
+				0259C583FE90428111CA0C5A /* palette.table */,
+			);
+			name = "IB Palette resources";
+			sourceTree = "<group>";
+		};
+		6B97E85004E1895900A80202 /* Sample App resources */ = {
+			isa = PBXGroup;
+			children = (
+				97CE97AB0CE63C2700AE57DC /* Credits.rtf */,
+				97CE97AC0CE63C2700AE57DC /* SampleAppMain.nib */,
+			);
+			name = "Sample App resources";
+			sourceTree = "<group>";
+		};
+		6BB5251504DC295000A80202 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				27026A730D491DB70074D50A /* Framework_code */,
+				6B97E82F04E1846E00A80202 /* IB Palette code */,
+				6B97E83304E1853200A80202 /* Sample App code */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		6BE47B4D04F2AB1100A80202 /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+				6BE47B4F04F2AB1100A80202 /* index.html */,
+				6BE47B5004F2AB1100A80202 /* SMDoubleSlider */,
+				6BE47B5D04F2AB1100A80202 /* SMDoubleSliderCell */,
+				6BE47B6A04F2AB1100A80202 /* Tasks */,
+			);
+			path = Docs;
+			sourceTree = "<group>";
+		};
+		6BE47B5004F2AB1100A80202 /* SMDoubleSlider */ = {
+			isa = PBXGroup;
+			children = (
+				6BE47B5104F2AB1100A80202 /* Classes */,
+				6BE47B5904F2AB1100A80202 /* CompositePage.html */,
+				6BE47B5A04F2AB1100A80202 /* index.html */,
+				6BE47B5B04F2AB1100A80202 /* SMDoubleSlider.html */,
+				6BE47B5C04F2AB1100A80202 /* toc.html */,
+			);
+			path = SMDoubleSlider;
+			sourceTree = "<group>";
+		};
+		6BE47B5104F2AB1100A80202 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6BE47B5204F2AB1100A80202 /* SMDoubleSlider */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6BE47B5204F2AB1100A80202 /* SMDoubleSlider */ = {
+			isa = PBXGroup;
+			children = (
+				6BE47B5304F2AB1100A80202 /* CompositePage.html */,
+				6BE47B5404F2AB1100A80202 /* index.html */,
+				6BE47B5504F2AB1100A80202 /* Methods */,
+				6BE47B5704F2AB1100A80202 /* SMDoubleSlider.html */,
+				6BE47B5804F2AB1100A80202 /* toc.html */,
+			);
+			path = SMDoubleSlider;
+			sourceTree = "<group>";
+		};
+		6BE47B5504F2AB1100A80202 /* Methods */ = {
+			isa = PBXGroup;
+			children = (
+				6BE47B5604F2AB1100A80202 /* Methods.html */,
+			);
+			path = Methods;
+			sourceTree = "<group>";
+		};
+		6BE47B5D04F2AB1100A80202 /* SMDoubleSliderCell */ = {
+			isa = PBXGroup;
+			children = (
+				6BE47B5E04F2AB1100A80202 /* Classes */,
+				6BE47B6604F2AB1100A80202 /* CompositePage.html */,
+				6BE47B6704F2AB1100A80202 /* index.html */,
+				6BE47B6804F2AB1100A80202 /* SMDoubleSliderCell.html */,
+				6BE47B6904F2AB1100A80202 /* toc.html */,
+			);
+			path = SMDoubleSliderCell;
+			sourceTree = "<group>";
+		};
+		6BE47B5E04F2AB1100A80202 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6BE47B5F04F2AB1100A80202 /* SMDoubleSliderCell */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6BE47B5F04F2AB1100A80202 /* SMDoubleSliderCell */ = {
+			isa = PBXGroup;
+			children = (
+				6BE47B6004F2AB1100A80202 /* CompositePage.html */,
+				6BE47B6104F2AB1100A80202 /* index.html */,
+				6BE47B6204F2AB1100A80202 /* Methods */,
+				6BE47B6404F2AB1100A80202 /* SMDoubleSliderCell.html */,
+				6BE47B6504F2AB1100A80202 /* toc.html */,
+			);
+			path = SMDoubleSliderCell;
+			sourceTree = "<group>";
+		};
+		6BE47B6204F2AB1100A80202 /* Methods */ = {
+			isa = PBXGroup;
+			children = (
+				6BE47B6304F2AB1100A80202 /* Methods.html */,
+			);
+			path = Methods;
+			sourceTree = "<group>";
+		};
+		6BE47B6A04F2AB1100A80202 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				6BE47B6C04F2AB1100A80202 /* GettingStarted.html */,
+				6BE47B6D04F2AB1100A80202 /* Overview.html */,
+				6BE47B6E04F2AB1100A80202 /* Usage.html */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE6A26010B25BCA000045E4B /* IB Palette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE6A26150B25BCA000045E4B /* Build configuration list for PBXNativeTarget "IB Palette" */;
+			buildPhases = (
+				AE6A26080B25BCA000045E4B /* Resources */,
+				AE6A260C0B25BCA000045E4B /* Sources */,
+				AE6A26110B25BCA000045E4B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IB Palette";
+			productInstallPath = "$(HOME)/Developer/Palettes";
+			productName = KylesIBPalette;
+			productReference = AE6A261A0B25BCA000045E4B /* SMDoubleSliderPalette.palette */;
+			productType = "com.apple.product-type.bundle";
+		};
+		AE6A26260B25BCDA00045E4B /* DoubleSlider App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE6A26370B25BCDA00045E4B /* Build configuration list for PBXNativeTarget "DoubleSlider App" */;
+			buildPhases = (
+				AE6A262C0B25BCDA00045E4B /* Resources */,
+				AE6A262F0B25BCDA00045E4B /* Sources */,
+				AE6A26340B25BCDA00045E4B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DoubleSlider App";
+			productInstallPath = "$(USER_APPS_DIR)";
+			productName = "Sample App";
+			productReference = AE6A263C0B25BCDA00045E4B /* DoubleSliderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0259C573FE90428111CA0C5A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AE6A26200B25BCA200045E4B /* Build configuration list for PBXProject "SMDoubleSlider" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 0259C574FE90428111CA0C5A /* KylesIBPalette */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE6A26260B25BCDA00045E4B /* DoubleSlider App */,
+				AE6A26010B25BCA000045E4B /* IB Palette */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE6A26080B25BCA000045E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6A26090B25BCA000045E4B /* palette.table in Resources */,
+				AE6A260B0B25BCA000045E4B /* SMDoubleSliderPalette.nib in Resources */,
+				97CE97AA0CE63C0300AE57DC /* SMDoubleSliderInspector.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6A262C0B25BCDA00045E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CE97AF0CE63C2F00AE57DC /* Credits.rtf in Resources */,
+				97CE97B00CE63C2F00AE57DC /* SampleAppMain.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE6A260C0B25BCA000045E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6A260D0B25BCA000045E4B /* SMDoubleSliderInspector.m in Sources */,
+				AE6A260E0B25BCA000045E4B /* SMDoubleSliderPalette.m in Sources */,
+				AE6A260F0B25BCA000045E4B /* SMDoubleSlider.m in Sources */,
+				AE6A26100B25BCA000045E4B /* SMDoubleSliderCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6A262F0B25BCDA00045E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6A26300B25BCDA00045E4B /* SMDoubleSlider.m in Sources */,
+				AE6A26310B25BCDA00045E4B /* SMDoubleSliderCell.m in Sources */,
+				AE6A26320B25BCDA00045E4B /* main.m in Sources */,
+				AE6A26330B25BCDA00045E4B /* SMSampleAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AE6A26160B25BCA000045E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SMDoubleSlider_Prefix.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "IB Palette code/Info-IB_Palette.plist";
+				INSTALL_PATH = "$(HOME)/Developer/Palettes";
+				OTHER_LDFLAGS = (
+					"-bundle",
+					"-DMAC_OS_X_VERSION_MAX_ALLOWED=1030",
+				);
+				PRODUCT_NAME = SMDoubleSliderPalette;
+				WRAPPER_EXTENSION = palette;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		AE6A26170B25BCA000045E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SMDoubleSlider_Prefix.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "IB Palette code/Info-IB_Palette.plist";
+				INSTALL_PATH = "$(HOME)/Developer/Palettes";
+				OTHER_LDFLAGS = "-bundle";
+				PRODUCT_NAME = SMDoubleSliderPalette;
+				WRAPPER_EXTENSION = palette;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		AE6A26210B25BCA200045E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.1;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		AE6A26220B25BCA200045E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_VERSION_i386 = 4.0;
+				GCC_VERSION_ppc = 3.3;
+				MACOSX_DEPLOYMENT_TARGET_i386 = 10.4;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.1;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+		AE6A26380B25BCDA00045E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SMDoubleSlider_Prefix.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "Sample App code/Info-Sample_App.plist";
+				OTHER_LDFLAGS_ppc = "-prebind";
+				PRODUCT_NAME = DoubleSliderApp;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		AE6A26390B25BCDA00045E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SMDoubleSlider_Prefix.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "Sample App code/Info-Sample_App.plist";
+				OTHER_LDFLAGS_ppc = "-prebind";
+				PRODUCT_NAME = DoubleSliderApp;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE6A26150B25BCA000045E4B /* Build configuration list for PBXNativeTarget "IB Palette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6A26160B25BCA000045E4B /* Debug */,
+				AE6A26170B25BCA000045E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AE6A26200B25BCA200045E4B /* Build configuration list for PBXProject "SMDoubleSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6A26210B25BCA200045E4B /* Debug */,
+				AE6A26220B25BCA200045E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AE6A26370B25BCDA00045E4B /* Build configuration list for PBXNativeTarget "DoubleSlider App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6A26380B25BCDA00045E4B /* Debug */,
+				AE6A26390B25BCDA00045E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0259C573FE90428111CA0C5A /* Project object */;
+}

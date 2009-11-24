@@ -1,0 +1,35 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = SMDoubleSlider; LANGUAGE = ObjC; SUPERCLASS = NSSlider; }, 
+        {
+            ACTIONS = {
+                takeDoubleHiValueFrom = id; 
+                takeDoubleLoValueFrom = id; 
+                takeFloatHiValueFrom = id; 
+                takeFloatLoValueFrom = id; 
+                takeIntHiValueFrom = id; 
+                takeIntLoValueFrom = id; 
+                takeObjectHiValueFrom = id; 
+                takeObjectLoValueFrom = id; 
+                takeStringHiValueFrom = id; 
+                takeStringLoValueFrom = id; 
+            }; 
+            CLASS = SMDoubleSliderCell; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSSliderCell; 
+        }, 
+        {
+            CLASS = SMDoubleSliderPalette; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_sm_horzNoTicks" = SMDoubleSlider; 
+                "_sm_horzTicks" = SMDoubleSlider; 
+                "_sm_vertNoTicks" = SMDoubleSlider; 
+                "_sm_vertTicks" = SMDoubleSlider; 
+            }; 
+            SUPERCLASS = IBPalette; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html>
+<head>
+    <title>SMDoubleSlider - General Usage</title>
+	<meta name="generator" content="HeaderDoc">
+</head>
+<body bgcolor="#ffffff">
+<font size="-2"><a href="../index.html" target="_top" headerDoc="topLink">[Top]</a></font><br>
+<h1>Using the SMDoubleSlider code</h1><hr>
+<h2>Open Source License issues</h2>
+<p>Be sure to read and abide by the license accompanying this distribution.  The license explicitly states what you can and cannot do.</p>
+
+<h2>Add the code to your project</h2>
+<p>You need to add either the SMDoubleSliderIB3Framework or all four of the <code>SMDoubleSlider.h/.m</code> and <code>SMDoubleSliderCell.h/.m</code> files to your application.  I won't give explicit directions on how to do that here.  Check in the Xcode Help if you need some assistance.</p>
+
+<h2>Use the double slider classes</h2>
+<p>Usually, you will use Interface Builder to put a double slider into a nib file.  Hook up your target action (or bindings).  You can also create a double slider at run time using the <code>-initWithFrame:</code> method.</p>
+<p>You could also assign a table column to contain double sliders by using the <code>SMDoubleSliderCell</code> class and <code>NSTableColumn</code>s <code>-setDataCell:</code> method.  Here's an example of how you could use it.  In the example, <code>myTableView</code> is a variable of type <code>NSTableView</code>.</p>
+<blockquote>
+SMDoubleSliderCell	*cell;<br>
+cell = [ [ [ SMDoubleSliderCell alloc ] init ] autorelease ];<br>
+[ cell setMinValue:5 ];<br>
+[ cell setMaxValue:10 ];<br>
+[ [ myTableView tableColumnWithIdentifier:@"sliderColumn" ] setDataCell:cell ];
+</blockquote>
+<p><b>Note:</b> I've never tried to make a column of double sliders.  I'm not sure how they would be able to get both low and high values from the table data source.  It'd probably need some kind of dictionary with a low value and high value keys that could be passed by the table to <code>SMDoubleSliderCell</code>s <code>-setObjectValue:</code> method.  Of course, the <code>-setObjectValue:</code> method would then need to check for a dictionary class and grab those two keys (if they exist).  If anybody implements this and tests it, please send it back so I can include it in the main source.</p>
+
+<hr><br><center>&#169; 2003-2008 Snowmint Creative Solutions LLC (Last Updated 2008-01-24)
+</center>
+</body>
+</html>

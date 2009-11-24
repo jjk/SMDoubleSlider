@@ -1,0 +1,26 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {changedSlider = id; }; 
+            CLASS = SMSampleAppDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_sm_horzMax" = NSTextField; 
+                "_sm_horzMin" = NSTextField; 
+                "_sm_horzSlider" = SMDoubleSlider; 
+                "_sm_horzTicksMax" = NSTextField; 
+                "_sm_horzTicksMin" = NSTextField; 
+                "_sm_horzTicksSlider" = SMDoubleSlider; 
+                "_sm_vertMax" = NSTextField; 
+                "_sm_vertMin" = NSTextField; 
+                "_sm_vertSlider" = SMDoubleSlider; 
+                "_sm_vertTicksMax" = NSTextField; 
+                "_sm_vertTicksMin" = NSTextField; 
+                "_sm_vertTicksSlider" = SMDoubleSlider; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

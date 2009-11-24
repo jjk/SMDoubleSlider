@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+		<!-- a subclass of IBPalette -->
+	<key>Class</key>
+	<string>SMDoubleSliderPalette</string>
+
+		<!-- a list of class names exported from palette to IB -->
+	<key>ExportClasses</key>
+	<array>
+		<string>SMDoubleSlider</string>
+		<string>SMDoubleSliderCell</string>
+	</array>
+
+		<!-- a list of images names exported from palette to IB -->
+	<key>ExportImages</key>
+	<array/>
+
+		<!-- a list of sounds names exported from palette to IB -->
+	<key>ExportSounds</key>
+	<array/>
+
+		<!-- a tiff file name for icon used for palette -->
+	<key>Icon</key>
+	<string>SMDoubleSlider</string>
+
+		<!-- a nib file name -->
+	<key>NibFile</key>
+	<string>SMDoubleSliderPalette</string>
+
+		<!-- Tool Tips string for the palette icon -->
+	<key>ToolTips</key>
+	<string>SMDoubleSlider IB Palette</string>
+</dict>
+</plist>

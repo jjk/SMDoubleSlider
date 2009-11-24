@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html>
+<head>
+    <title>SMDoubleSlider - Getting Started</title>
+	<meta name="generator" content="HeaderDoc">
+</head>
+<body bgcolor="#ffffff">
+<font size="-2"><a href="../index.html" target="_top" headerDoc="topLink">[Top]</a></font><br>
+<h1>SMDoubleSlider Getting Started</h1><hr>
+<h2>Installation</h2>
+<p>The SMDoubleSlider distribution consists of an Xcode 3 project file (SMDoubleSliderIB3.xcodeproj), an Xcode 2.x project file (SMDoubleSlider.xcodeproj), the source code itself, this documentation, and pre-built versions of the Interface Builder 2 palette, the SMDoubleSliderIB3 framework which includes an Interface Builder 3 plugin, and a sample application.</p>
+<h3>Simple installation of pre-built products</h3>
+<h4>Xcode 3 and Interface Builder 3</h4>
+<p>The easiest way to install the SMDoubleSlider code for use in development is to copy the pre-built framework (named SMDoubleSliderIB3Framework) to an appropriate location on your hard drive such as <code>~/Library/Frameworks/</code>.  Add that framework to any application which makes use of a double slider.  When you add the framework to your Xcode project, Interface Builder automatically loads the associated plug-in. If your nib file is not associated with an Xcode project, you must load the plug-in manually using the Interface Builder preferences window.  The plugin can be found in the <code>Resources</code> folder of the SMDoubleSliderIB3Framework.</p>
+
+<p>If you're not going to be putting an SMDoubleSlider into a nib file, then you don't need to use the framework.  You can simply include the SMDoubleSlider.h/.m and SMDoubleSliderCell.h/.m files directly in your application.</p>
+
+<h4>Xcode 2.x</h4>
+<p>If you're running Mac OS X 10.4, the easiest way to install the SMDoubleSlider code for use in development is to copy the pre-built palette to an appropriate location on your hard drive.  The source code SMDoubleSlider.h/.m and SMDoubleSliderCell.h/.m will need to be added directly to any application which makes use of a double slider.</p>
+
+<ol>
+<li>Copy the <code>SMDoubleSlider.palette</code> bundle into your <code>/Developer/Palettes</code> folder.  If there is no <code>Palettes</code> folder in your <code>/Developer</code> folder, simply create that folder first, then copy the <code>SMDoubleSlider.palette</code> file into it.</li>
+</ol>
+
+<p>If you're running Mac OS X 10.3 or earlier, you'll need to install the source code (see below) and build it to produce an Interface Builder palette that will load on your system.  The bindings support in SMDoubleSlider will need to be either conditionally compiled or commented out as bindings will cause the binary to be unable to load.</p>
+
+<h5>Setting up the .palette in Interface Builder 2</h5>
+<p>The SMDoubleSlider distribution includes a palette that can be used in Interface Builder to allow easy addition of double slider objects to your nib files.  Once you've installed the <code>SMDoubleSlider.palette</code> file onto your hard drive, either by following the simple installation instructions above or by building the palette from the source code, you can add the palette to Interface Builder.  Once this is done, you shouldn't need to do it again unless you move the <code>SMDoubleSlider.palette</code> file on your hard drive.</p>
+<ol>
+<li>Launch Interface Builder 2.</li>
+<li>From the <code>Tools</code> menu, choose <code>Palette Preferences...</code>, or you can use the <code>Preferences...</code> menu command and choose the <code>Palette</code> preferences.</li>
+<li>Click the <code>Add...</code> button.</li>
+<li>Navigate to the location of the <code>SMDoubleSlider.palette</code> file and select it.</li>
+</ol>
+<p>That's it!  The double slider palette icon should show up in the palettes window.  You can drag a double slider object from that palette into your own nib files.  You can hook up your target action objects in Interface Builder, just like with using a standard NSSlider object.  When you show the attributes of a selected double slider object in Interface Builder, you'll see an inspector that lets you change most of the settings of the object.  You can also change any of these settings at run time.</p>
+
+<p>One of the nice things about the Interface Builder palette is that the double slider code is built directly into it.  This means that the double slider will work perfectly when using Interface Builder's <code>Test Interface</code> command.</p>
+
+<h3>Installation of source distribution</h3>
+<p>Copy the contents of the distribution to your hard drive in a location where you have write access.  You can place it in your <code>~/Documents</code> folder, in your <code>/Developer</code> folder, or elsewhere.  After you build the palette and/or sample app (see below) you may need to copy some of the files to other locations on your computer.</p>
+
+<p>You must have the source code installed in a place where you have write access.  If you're using Xcode 3 or later, open either of the .xcodeproj files.  If you're using Xcode 2.x, open the SMDoubleSlider.xcodeproj file.</p>
+
+<h4>SMDoubleSliderIB3.xcodeproj</h4>
+<p>There are three targets in the project; you can build any of the targets although the <b>All</b> target is probably the best.</p>
+
+<ol>
+<li><b>All</b> - Builds both the framework and the Interface Builder 3 plugin.</li>
+<li><b>SMDoubleSliderIB3</b> - Builds the Interface Builder 3 plugin within the SMDoubleSlider framework.</li>
+<li><b>SMDoubleSliderIB3Framework</b> - Builds the SMDoubleSlider framework.</li>
+</ol>
+
+<h4>SMDoubleSlider.xcodeproj</h4>
+
+<p>There are two targets in the project; you can build either of the targets.</p>
+
+<ol>
+<li><b>IB Palette</b> - Builds the Interface Builder 2 palette.</li>
+<li><b>Sample App</b> - Builds the sample application showing off some of the capabilities of the double slider.</li>
+</ol>
+
+<hr>
+<font size="-1"><a href="Usage.html" target="_top">General Usage</a> - how to make use of this class</font><br>
+<hr><br><center>&#169; 2003-2008 Snowmint Creative Solutions LLC (Last Updated 2008-01-24)
+</center>
+</body>
+</html>

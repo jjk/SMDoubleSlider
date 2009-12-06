@@ -86,7 +86,7 @@
 		C059ACDC0A49E0A20079D97B /* SMDoubleSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMDoubleSlider.m; path = Framework_code/SMDoubleSlider.m; sourceTree = "<group>"; };
 		C05B20D80A48CB530099B9E5 /* SMDoubleSliderIB3Inspector.nib */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = wrapper.nib; name = SMDoubleSliderIB3Inspector.nib; path = IB_Plugin_code/SMDoubleSliderIB3Inspector.nib; sourceTree = "<group>"; };
 		C0D069550A49DF9100C95564 /* InterfaceBuilderKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InterfaceBuilderKit.framework; path = /Developer/Library/Frameworks/InterfaceBuilderKit.framework; sourceTree = "<absolute>"; };
-		D1AEDE460A6C289C0010C343 /* SMDoubleSliderIB3Library.nib */ = {isa = PBXFileReference; explicitFileType = file; name = SMDoubleSliderIB3Library.nib; path = IB_Plugin_code/SMDoubleSliderIB3Library.nib; sourceTree = "<group>"; };
+		D1AEDE460A6C289C0010C343 /* SMDoubleSliderIB3Library.nib */ = {isa = PBXFileReference; explicitFileType = wrapper.nib; name = SMDoubleSliderIB3Library.nib; path = IB_Plugin_code/SMDoubleSliderIB3Library.nib; sourceTree = "<group>"; };
 		DD92D38A0106425D02CA0E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -404,7 +404,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				INFOPLIST_FILE = "Framework_code/SMDoubleSliderIB3Framework-Info.plist";
-				INSTALL_PATH = "$(BUILD_DIR)/$(CONFIGURATION)";
+				INSTALL_PATH = "@rpath";
 				PRODUCT_NAME = SMDoubleSliderIB3Framework;
 				SKIP_INSTALL = NO;
 			};
@@ -421,6 +421,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				INFOPLIST_FILE = "Framework_code/SMDoubleSliderIB3Framework-Info.plist";
+				INSTALL_PATH = "@rpath";
 				PRODUCT_NAME = SMDoubleSliderIB3Framework;
 				SKIP_INSTALL = NO;
 			};
@@ -447,6 +448,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = IB_Plugin_code/SMDoubleSliderIB3_Prefix.pch;
 				INFOPLIST_FILE = "IB_Plugin_code/Info-IB_Plugin.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../../../..";
 				PRODUCT_NAME = SMDoubleSliderIB3;
 				WRAPPER_EXTENSION = ibplugin;
 				ZERO_LINK = YES;
@@ -472,6 +474,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = IB_Plugin_code/SMDoubleSliderIB3_Prefix.pch;
 				INFOPLIST_FILE = "IB_Plugin_code/Info-IB_Plugin.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../../../../../..";
 				PRODUCT_NAME = SMDoubleSliderIB3;
 				WRAPPER_EXTENSION = ibplugin;
 			};
